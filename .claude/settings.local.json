@@ -10,7 +10,12 @@
       "Bash(copy \"C:\\\\Users\\\\hp\\\\Downloads\\\\Gokul logo.png\" \"c:\\\\Users\\\\hp\\\\Arihant\\\\Gokul-logo.png\")",
       "Bash(copy \"C:\\\\Users\\\\hp\\\\Downloads\\\\milky mist logo.png\" \"c:\\\\Users\\\\hp\\\\Arihant\\\\milky-mist-logo.png\")",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Arihant Megastores website\n\n- Complete responsive website for FMCG distribution company\n- Brand partner carousel with Amul, Gokul, and Milky Mist logos\n- Product pages for all three brands\n- Amul products catalog with real product images\n- Modern design with Open Sans and Inter fonts\n- Infographic core values section\n- Auto-scrolling brand partners\n- Fully responsive design\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
