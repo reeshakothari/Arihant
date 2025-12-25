@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start index.html)",
+      "Bash(start about.html)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install)",
+      "Bash(start http://localhost:3000/amul-products.html)",
+      "Bash(copy:*)",
+      "Bash(copy \"C:\\\\Users\\\\hp\\\\Downloads\\\\Gokul logo.png\" \"c:\\\\Users\\\\hp\\\\Arihant\\\\Gokul-logo.png\")",
+      "Bash(copy \"C:\\\\Users\\\\hp\\\\Downloads\\\\milky mist logo.png\" \"c:\\\\Users\\\\hp\\\\Arihant\\\\milky-mist-logo.png\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

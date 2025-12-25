@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arihant Megastores - India's Emerging FMCG Distribution & Export Leader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">Arihant Megastores</a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="services.html" class="nav-link">Services</a></li>
+                    <li><a href="export.html" class="nav-link">Export</a></li>
+                    <li><a href="products.html" class="nav-link">Products</a></li>
+                    <li><a href="contact.html" class="btn-primary nav-btn">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Slider Section -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active" style="background-image: linear-gradient(135deg, rgba(153, 27, 27, 0.9) 0%, rgba(220, 38, 38, 0.85) 100%), url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1920&h=1080&fit=crop');">
+                <div class="container">
+                    <div class="slide-content">
+                        <div class="slide-badge fade-in-up">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="10" cy="10" r="8" stroke="white" stroke-width="2"/>
+                                <path d="M10 2V10L14 12" stroke="white" stroke-width="2"/>
+                            </svg>
+                            <span>Export Ready • B2B Distribution • Global Reach</span>
+                        </div>
+                        <h1 class="slide-title fade-in-up delay-1">India's Emerging FMCG Distribution & Export Leader</h1>
+                        <p class="slide-description fade-in-up delay-2">
+                            Arihant Megastores specializes in sourcing, marketing, and trading high-quality food and consumer products
+                            across domestic and global markets.
+                        </p>
+                        <div class="slide-buttons fade-in-up delay-3">
+                            <a href="products.html" class="btn-secondary">Explore Products</a>
+                            <a href="export.html" class="btn-primary">Export Services</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: linear-gradient(135deg, rgba(220, 38, 38, 0.9) 0%, rgba(239, 68, 68, 0.85) 100%), url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1920&h=1080&fit=crop');">
+                <div class="container">
+                    <div class="slide-content">
+                        <div class="slide-badge fade-in-up">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="10" cy="10" r="8" stroke="white" stroke-width="2"/>
+                            </svg>
+                            <span>Quality Assurance • Global Standards</span>
+                        </div>
+                        <h1 class="slide-title fade-in-up delay-1">Connecting Quality Products with Global Markets</h1>
+                        <p class="slide-description fade-in-up delay-2">
+                            We partner with leading brands to expand their reach into high-potential international markets with complete compliance support.
+                        </p>
+                        <div class="slide-buttons fade-in-up delay-3">
+                            <a href="services.html" class="btn-secondary">Our Services</a>
+                            <a href="contact.html" class="btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: linear-gradient(135deg, rgba(153, 27, 27, 0.9) 0%, rgba(220, 38, 38, 0.85) 100%), url('https://images.unsplash.com/photo-1553413077-190dd305871c?w=1920&h=1080&fit=crop');">
+                <div class="container">
+                    <div class="slide-content">
+                        <div class="slide-badge fade-in-up">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 8L10 2L18 8V18H2V8Z" stroke="white" stroke-width="2"/>
+                            </svg>
+                            <span>500+ Products • 50+ Brands • 20+ Markets</span>
+                        </div>
+                        <h1 class="slide-title fade-in-up delay-1">Trusted Distribution Partner for FMCG Brands</h1>
+                        <p class="slide-description fade-in-up delay-2">
+                            Building robust distribution networks and delivering value-added services that drive growth for our partners.
+                        </p>
+                        <div class="slide-buttons fade-in-up delay-3">
+                            <a href="about.html" class="btn-secondary">About Us</a>
+                            <a href="products.html" class="btn-primary">View Products</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+            <button class="slider-arrow prev" id="sliderPrev">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+            <button class="slider-arrow next" id="sliderNext">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 18L15 12L9 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Slider Indicators -->
+        <div class="slider-indicators">
+            <span class="indicator active" data-slide="0"></span>
+            <span class="indicator" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Arihant Megastores</h2>
+                <p>One of India's emerging FMCG distribution and export companies, specializing in sourcing, marketing, and trading high-quality food and consumer products across domestic and global markets.</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop" alt="Partnership handshake">
+                </div>
+                <div class="about-text">
+                    <h3>Our Company Profile</h3>
+                    <p>With a strong presence in modern trade, B2B distribution, and institutional sales, we partner with leading brands to expand their reach into high-potential international markets.</p>
+                    <p>Our expertise lies in understanding market dynamics, building robust distribution networks, and delivering value-added services that drive growth for our partners and stakeholders.</p>
+
+                    <div class="mission-vision">
+                        <div class="mission-box">
+                            <div class="icon-circle blue">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="4" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Our Mission</h4>
+                                <p>To be the preferred distribution partner for FMCG brands across global markets</p>
+                            </div>
+                        </div>
+                        <div class="mission-box">
+                            <div class="icon-circle blue">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Our Vision</h4>
+                                <p>To create a seamless bridge between quality products and global consumers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="core-values">
+                <h3 class="core-values-title">Core Values</h3>
+                <div class="infographic-container">
+                    <div class="infographic-center">
+                        <div class="center-circle">
+                            <h4>OUR CORE</h4>
+                            <p>VALUES</p>
+                        </div>
+                    </div>
+
+                    <div class="infographic-items">
+                        <div class="infographic-item" data-delay="0.1">
+                            <div class="connecting-line">
+                                <span class="dot dot-1"></span>
+                                <span class="dot dot-2"></span>
+                            </div>
+                            <div class="value-circle">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="value-content">
+                                <h5>Integrity</h5>
+                                <p>Building trust through transparency and ethical practices</p>
+                            </div>
+                        </div>
+
+                        <div class="infographic-item" data-delay="0.2">
+                            <div class="connecting-line">
+                                <span class="dot dot-1"></span>
+                                <span class="dot dot-2"></span>
+                            </div>
+                            <div class="value-circle">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="value-content">
+                                <h5>Quality</h5>
+                                <p>Uncompromising commitment to product excellence</p>
+                            </div>
+                        </div>
+
+                        <div class="infographic-item" data-delay="0.3">
+                            <div class="connecting-line">
+                                <span class="dot dot-1"></span>
+                                <span class="dot dot-2"></span>
+                            </div>
+                            <div class="value-circle">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="value-content">
+                                <h5>Partnership</h5>
+                                <p>Collaborative approach to mutual growth</p>
+                            </div>
+                        </div>
+
+                        <div class="infographic-item" data-delay="0.4">
+                            <div class="connecting-line">
+                                <span class="dot dot-1"></span>
+                                <span class="dot dot-2"></span>
+                            </div>
+                            <div class="value-circle">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 2L7.17 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4H16.83L15 2H9ZM12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <div class="value-content">
+                                <h5>Innovation</h5>
+                                <p>Adapting to evolving market needs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="18" r="6" stroke="#0066FF" stroke-width="2"/>
+                            <path d="M24 28L28 32L24 36L20 32L24 28Z" fill="#0066FF"/>
+                            <path d="M12 36C12 31 17 28 24 28C31 28 36 31 36 36" stroke="#0066FF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>500+</h3>
+                    <p>Products Distributed</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="6" stroke="#0066FF" stroke-width="2"/>
+                            <circle cx="32" cy="16" r="6" stroke="#0066FF" stroke-width="2"/>
+                            <path d="M8 36C8 31 12 28 16 28C20 28 24 31 24 36" stroke="#0066FF" stroke-width="2"/>
+                            <path d="M24 36C24 31 28 28 32 28C36 28 40 31 40 36" stroke="#0066FF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>50+</h3>
+                    <p>Partner Brands</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="18" r="6" stroke="#0066FF" stroke-width="2"/>
+                            <path d="M24 28L28 32L24 36L20 32L24 28Z" fill="#0066FF"/>
+                            <path d="M12 36C12 31 17 28 24 28C31 28 36 31 36 36" stroke="#0066FF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>20+</h3>
+                    <p>Export Markets</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="18" r="6" stroke="#0066FF" stroke-width="2"/>
+                            <path d="M24 28L28 32L24 36L20 32L24 28Z" fill="#0066FF"/>
+                            <path d="M12 36C12 31 17 28 24 28C31 28 36 31 36 36" stroke="#0066FF" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>10+</h3>
+                    <p>Years of Excellence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive distribution and export solutions tailored to expand your market reach and drive business growth</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="12" width="32" height="24" rx="2" stroke="white" stroke-width="2"/>
+                            <path d="M8 20H40" stroke="white" stroke-width="2"/>
+                            <rect x="16" y="24" width="16" height="8" rx="1" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Modern Trade</h3>
+                    <p>Strategic partnerships with leading retail chains and modern trade outlets across India, ensuring optimal shelf presence and brand visibility.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="16" width="32" height="20" rx="2" stroke="white" stroke-width="2"/>
+                            <path d="M16 16V12C16 10.8954 16.8954 10 18 10H30C31.1046 10 32 10.8954 32 12V16" stroke="white" stroke-width="2"/>
+                            <circle cx="24" cy="26" r="3" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>B2B Distribution</h3>
+                    <p>Comprehensive distribution network serving wholesalers, retailers, and distributors with efficient supply chain management and timely delivery.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="6" stroke="white" stroke-width="2"/>
+                            <circle cx="32" cy="16" r="6" stroke="white" stroke-width="2"/>
+                            <path d="M8 36C8 31 12 28 16 28C20 28 24 31 24 36" stroke="white" stroke-width="2"/>
+                            <path d="M24 36C24 31 28 28 32 28C36 28 40 31 40 36" stroke="white" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Institutional Sales</h3>
+                    <p>Dedicated solutions for hotels, restaurants, catering services, and institutional buyers with bulk supply and customized service offerings.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="24" r="16" stroke="white" stroke-width="2"/>
+                            <path d="M24 8V24L32 28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="24" cy="24" r="2" fill="white"/>
+                        </svg>
+                    </div>
+                    <h3>Export Services</h3>
+                    <p>End-to-end export solutions connecting Indian FMCG brands with international markets, handling sourcing, compliance, and logistics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-grid">
+                <div class="why-choose-left">
+                    <h2>Why Choose Arihant Megastores?</h2>
+                    <ul class="check-list">
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#0066FF"/>
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Extensive distribution network across India and international markets</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#0066FF"/>
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Strong relationships with leading brands and retail chains</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#0066FF"/>
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Expert team with deep market knowledge and industry experience</span>
+                        </li>
+                        <li>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="#0066FF"/>
+                                <path d="M8 12L11 15L16 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>Commitment to quality, compliance, and customer satisfaction</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="why-choose-right">
+                    <h3>Our Expertise</h3>
+                    <p>We specialize in understanding market dynamics, building robust distribution networks, and delivering value-added services that drive growth for our partners.</p>
+                    <p>From sourcing to delivery, we manage every aspect of the supply chain with precision and efficiency, ensuring your products reach the right markets at the right time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Brand Partners</h2>
+                <p>We partner with leading FMCG brands to distribute quality products across domestic and international markets</p>
+            </div>
+
+            <div class="partners-slider">
+                <button class="slider-btn prev" id="prevBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="partners-track" id="partnersTrack">
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="Amul.jpg" alt="Amul">
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="Gokul-logo.png" alt="Gokul Dairy">
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="milky-mist-logo.png" alt="Milky Mist">
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="Amul.jpg" alt="Amul">
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="Gokul-logo.png" alt="Gokul Dairy">
+                        </div>
+                    </div>
+                    <div class="partner-card">
+                        <div class="partner-logo">
+                            <img src="milky-mist-logo.png" alt="Milky Mist">
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next" id="nextBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="partner-cta">
+                <p>Interested in partnering with us?</p>
+                <a href="contact.html" class="btn-primary">Become a Partner</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Arihant Megastores</h3>
+                    <p>India's emerging FMCG distribution and export leader, connecting quality products with global markets.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="export.html">Export</a></li>
+                        <li><a href="products.html">Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Modern Trade</a></li>
+                        <li><a href="services.html">B2B Distribution</a></li>
+                        <li><a href="services.html">Institutional Sales</a></li>
+                        <li><a href="export.html">Export Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="contact.html">Get in Touch</a></li>
+                        <li><a href="contact.html">Become a Partner</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Arihant Megastores. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
