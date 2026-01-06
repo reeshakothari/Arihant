@@ -65,6 +65,14 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 800;
     color: var(--primary-blue);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -1421,6 +1429,13 @@ h1, h2, h3, h4, h5, h6,
     margin-bottom: 16px;
 }
 
+.footer-logo {
+    height: 120px;
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
 .footer-section h4 {
     font-size: 18px;
     font-weight: 700;
@@ -1596,6 +1611,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 @media (max-width: 640px) {
+    .logo-img {
+        height: 70px;
+    }
+
+    .footer-logo {
+        height: 90px;
+    }
+
     .hero-slider {
         height: auto;
         min-height: 100vh;
