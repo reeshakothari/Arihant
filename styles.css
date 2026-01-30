@@ -1000,7 +1000,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
+    background: linear-gradient(135deg, #991B1B 0%, #DC2626 100%);
     color: var(--white);
     padding: 80px 0;
     text-align: center;
@@ -1068,34 +1068,35 @@ h1, h2, h3, h4, h5, h6,
 
 /* Export Sections */
 .export-header {
-    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+    background: linear-gradient(135deg, #991B1B 0%, #DC2626 100%);
     padding: 80px 0;
     text-align: center;
+    color: var(--white);
 }
 
 .export-badge {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--white);
+    background: rgba(255, 255, 255, 0.2);
     padding: 12px 20px;
     border-radius: 50px;
     margin-bottom: 24px;
-    color: var(--primary-blue);
+    color: var(--white);
     font-weight: 600;
-    box-shadow: 0 4px 12px rgba(0, 102, 255, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .export-header h1 {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 16px;
-    color: var(--navy);
+    color: var(--white);
 }
 
 .export-header p {
     font-size: 20px;
-    color: var(--gray-medium);
+    color: rgba(255, 255, 255, 0.95);
     max-width: 800px;
     margin: 0 auto;
 }
